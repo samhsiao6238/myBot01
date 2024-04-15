@@ -20,8 +20,8 @@ from linebot.v3.webhooks import (
 
 # 導入所需的函式庫並調用函數讀取 .env 的值
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 CHANNEL_ACCESS_TOKEN = os.getenv('CHANNEL_ACCESS_TOKEN')
 CHANNEL_SECRET = os.getenv('CHANNEL_SECRET')
